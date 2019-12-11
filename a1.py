@@ -86,7 +86,7 @@ def get_hours(time_1):
     1
 
     """
-    return int(3800 / 3600)
+    return int(time_1 / 3600)
 
 ### Write your get_minutes function definition here:
 def get_minutes(time_1):
@@ -98,7 +98,7 @@ def get_minutes(time_1):
     3
 
     """
-    return int((3800 % 3600) / 60)
+    return int((time_1 % 3600) / 60)
 
 
 ### Write your get_seconds function definition here:
@@ -111,7 +111,7 @@ def get_seconds(time_1):
     20
 
     """
-    return int((3800 % 3600) % 60)
+    return int((time_1 % 3600) % 60)
 
 
 def time_to_utc(utc_offset, time):
