@@ -1,0 +1,1 @@
+a different time zone clock created with the help of basic python codes.
